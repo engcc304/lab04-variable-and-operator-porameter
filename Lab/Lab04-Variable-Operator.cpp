@@ -29,19 +29,19 @@
 
 int main() {
     
-    int ID ;
+    int ID[10] ;
     int workhr ;
     float salary ;
 
     printf( "Enter your employee ID = " );
-    scanf( "%d", &ID );
+    scanf( "%s", &ID );
     printf( "Enter your working hour = " );
     scanf( "%d", &workhr );
     printf( "Enter your hourly income = " );
     scanf( "%f", &salary );
 
     printf( "Expected = \n" ) ; 
-    printf( "Employee ID = %d \n", ID ) ;
+    printf( "Employee ID = %s \n", ID ) ;
     printf( "Salary = %f", workhr * salary ) ;
 
     return 0;
